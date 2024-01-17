@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffd4e5; /* Baby pink background color */
+}
+
+header {
+    background-color: #ffccd3; /* Lighter pink header background color */
+    color: #800000; /* Dark red text */
+    text-align: center;
+    padding: 2em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffd4e5; /* Baby pink section background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #800000; /* Dark red text */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ffccd3; /* Lighter pink footer background color */
+    color: #800000; /* Dark red text */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animation Styles */
+#phone {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #800000; /* Dark red border */
+    animation: typing 2s steps(15, end), blink-caret 0.75;
+}
+
+/* Updated styles for profile picture */
+.profile-pic-container {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    overflow: hidden;
+    border-radius: 50%; /* Makes it circular */
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 100%; /* Ensures the image fits within the container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Keeps it circular */
+    transition: transform 0.5s ease-in-out; /* Add a simple animation */
+}
+
+.profile-pic:hover {
+    transform: scale(1.1); /* Enlarges the image on hover */
+}
